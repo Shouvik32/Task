@@ -207,7 +207,7 @@ public class TaskServiceImplTest {
 
     @Test
     public void testGetTasksByStatus() {
-        Task task1 = createSampleTask(); // Pending
+        Task task1 = createSampleTask();
         Task task2 = createSampleTask();
         task2.setTitle("Another Task");
         task2.setStatus(Status.COMPLETED);
